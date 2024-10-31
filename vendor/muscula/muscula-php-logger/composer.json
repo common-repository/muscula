@@ -1,0 +1,30 @@
+{
+	"name": "muscula/muscula-php-logger",
+	"description": "PHP library for sending errors to Muscula monitoring system",
+	"keywords": [
+		"logging",
+		"errors",
+		"debug",
+		"muscula",
+		"error handler"
+	],
+	"homepage": "https://www.muscula.com",
+	"license": "MIT",
+	"type": "library",
+	"support": {
+		"email": "support@muscula.com"
+	},
+	"require": {
+		"php": ">=7.0",
+		"guzzlehttp/guzzle": "^7.5.0"
+	},
+	"require-dev": {
+		"ext-mbstring": "*",
+		"psr/log": "^1.1.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Muscula\\": "src/Muscula"
+		}
+	}
+}

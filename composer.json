@@ -1,0 +1,21 @@
+{
+    "name": "muscula/muscula-wordpress-plugin",
+    "authors": [
+        {
+            "name": "Muscula",
+            "email": "support@muscula.com"
+        }
+    ],
+    "description": "Wordpress plugin for muscula.com - application logging and monitoring platform",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=8.0.0",
+        "composer/installers": "^v1.12.0",
+        "muscula/muscula-php-logger": "dev-master"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
